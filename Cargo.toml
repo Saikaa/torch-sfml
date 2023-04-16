@@ -1,0 +1,15 @@
+[package]
+name = "sfml_torch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24.5"
+sfml = "0.20.0"
+tch = "0.10.3"
+thiserror = "1.0.39"
+
+[profile.release]
+strip = true
